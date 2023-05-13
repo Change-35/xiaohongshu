@@ -12,9 +12,12 @@
   },
   "dependencies": {
     "axios": "^1.4.0",
+    "element-plus": "^2.3.4",
     "koa": "^2.14.2",
     "nodemon": "^2.0.22",
     "pinia": "^2.0.32",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
