@@ -13,11 +13,11 @@ const app = new Koa()
 app.use(async (ctx, next) => {
   try {
     await next();
-  } catch (err) {
+  } catch (error) {
     ctx.body = {
       code: 0,
-      status: err.statusCode || err.status || 500,
-      message: err.message
+      status: error.statusCode || error.status || 500,
+      message: error.message
     };
   }
 })
